@@ -26,18 +26,18 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-   
+    
 
     emailjs.send(
-      '****',
-      '****', {
+      '*****',
+      '*****', {
       from_name: form.name,
       to_name: 'Chinmay',
       from_email: form.email,
       to_email: 'somuawasthi005@gmail.com',
       message: form.message,
     },
-      '****'
+      '*****'
     )
       .then(() => {
         setLoading(false);

@@ -15,14 +15,19 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    ibm,
+    zscaler,
+    inotebook,
     threejs,
+    chatApp,
+    blog,
+    news,
+    cart,
+    exp,
+    ayush,
+    aditi,
+    nischal,
+    cpp, 
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +51,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Network Architect",
       icon: mobile,
     },
     {
@@ -106,7 +111,7 @@ import {
     },
     {
       name: "figma",
-      icon: figma,
+      icon: cpp,
     },
     {
       name: "docker",
@@ -116,91 +121,91 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Front End Web Developer",
+      company_name: "IBM Skillsbuild",
+      icon: ibm,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2024 - August 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Completed a comprehensive Web Development Internship Plan with CSRBOX for the year 2024-2025.",
+        "Gained hands-on experience in developing and implementing web-based solutions, showcasing technical skills in modern web technologies.",
+        "Collaborated on projects that enhanced understanding of coding, debugging, and optimizing websites for performance and usability.",
+        "Successfully applied theoretical knowledge in practical scenarios, achieving the internship completion milestone on 12 September 2024.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Networking Intern",
+      company_name: "zscaler",
+      icon: zscaler,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "January 2024 - March 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Successfully completed a virtual internship program with Zscaler, focusing on developing skills in cybersecurity and cloud-based solutions.",
+        "Gained hands-on experience in cloud security and virtual networking through structured, remote learning and practical assignments.",
+        "Strengthened knowledge in cybersecurity protocols and strategies while adapting to a fully virtual working environment.",
+        "Earned recognition for completing the internship, showcasing adaptability and commitment to professional growth in a digital-first workspace.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      name: "Ayush Patel",
+      designation: "TCE",
+      company: "Cisco",
+      image: ayush,
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      name: "Aditi Mishra",
+      designation: "SDE",
+      company: "VP Informatics",
+      image: aditi,
     },
     {
       testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      name: "Nischal Shukla",
+      designation: "Process Specialist",
+      company: "Infosys",
+      image: nischal,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Note Making",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "iNotebook is a web-based platform designed to provide users with a seamless and intuitive solution for managing their personal notes and ideas. With its robust CRUD functionalities, users can effortlessly create, update, delete, and organize notes in a highly user-friendly environment. The platform features a secure login system powered by JWT authentication, ensuring that user data remains private and protected.",
       tags: [
         {
           name: "react",
@@ -215,13 +220,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: inotebook,
+      source_code_Link: "https://github.com/Achinmay05/inotebook",
     },
     {
-      name: "Job IT",
+      name: "Chatting App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The iChat App is a real-time chatting application designed to provide seamless communication between users. With features like instant messaging, user authentication, and a sleek, responsive interface, it ensures a smooth and engaging chatting experience. Built with modern web technologies, the app is optimized for both performance and reliability, making it a perfect platform for staying connected.",
       tags: [
         {
           name: "react",
@@ -232,33 +237,84 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "socket.io",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: chatApp,
+      source_code_Link: "https://github.com/Achinmay05/chat-app",
     },
     {
-      name: "Trip Guide",
+      name: "Blog",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The Hunting Coder is a Next.js-powered blog site designed for sharing coding tutorials, tips, and insights with developers. The platform boasts fast performance, intuitive navigation, and a clean, minimalistic design to enhance user experience. It serves as a valuable resource for developers, providing high-quality content and practical knowledge to help them excel in their coding journey.",
       tags: [
         {
-          name: "nextjs",
+          name: "react.js",
           color: "blue-text-gradient",
         },
+  
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: blog,
+      source_code_Link: "https://github.com/",
+    },
+    {
+      name: "News",
+      description:
+        "The React-based News Application is a dynamic platform developed to provide users with the latest news updates from various trusted sources. With its fast performance, category-based filtering, and an intuitive user interface, it ensures that users can effortlessly browse and stay informed about topics that matter to them, such as technology, sports, or politics.",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+  
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: news,
+      source_code_Link: "https://github.com/Achinmay05/newsapp",
+    },
+    {
+      name: "Shopping Cart",
+      description:
+        "The React-based Shopping Cart Application is a user-friendly platform designed to provide a seamless shopping experience. With features to add, remove, and manage items in the cart, it ensures that users have complete control over their purchases.The application is built with a focus on efficiency and ease of use, offering a clean and responsive interface.",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+  
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cart,
+      source_code_Link: "https://github.com/Achinmay05/shopping-cart-react",
+    },
+    {
+      name: "Expense Tracker",
+      description:
+        "The Expense Tracker is a practical application designed to help users monitor and manage their finances effectively. With features to record income and expenses, categorize transactions, and view summaries, it offers a clear overview of financial activities.The app is intuitive and user-friendly, providing tools to track spending habits and maintain budgets efficiently.",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+  
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: exp,
+      source_code_Link: "https://github.com/Achinmay05/exepense-tracker-react",
     },
   ];
   
