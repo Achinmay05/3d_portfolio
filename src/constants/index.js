@@ -138,7 +138,7 @@ import {
       company_name: "zscaler",
       icon: zscaler,
       iconBg: "#E6DEDD",
-      date: "January 2024 - March 2022",
+      date: "January 2024 - March 2024",
       points: [
         "Successfully completed a virtual internship program with Zscaler, focusing on developing skills in cybersecurity and cloud-based solutions.",
         "Gained hands-on experience in cloud security and virtual networking through structured, remote learning and practical assignments.",
